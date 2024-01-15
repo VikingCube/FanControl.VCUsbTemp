@@ -40,21 +40,24 @@ namespace FanControl.VCUsbTemp
 
         public float get(int channel)
         {
-            try
+            if (serial_port.IsOpen)
             {
-                string data = serial_port.ReadLine();
-                sensordata = JObject.Parse(data);
-                return (float)sensordata["temp"][channel];
+                try
+                {
+                    string data = serial_port.ReadLine();
+                    sensordata = JObject.Parse(data);
+                    return (float)sensordata["temp"][channel];
+                }
+                catch (JsonException ex)
+                {
+                    return -301;
+                }
+                catch (System.TimeoutException)
+                {
+                    return -302;
+                }
             }
-            catch (JsonException ex)
-            {
-                return -1;
-            }
-            catch (System.TimeoutException)
-            {
-                return -2;
-            }
-
+            return -303;
         }
     }
 }
