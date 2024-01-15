@@ -1,12 +1,14 @@
-# FanControl.UsbTemp
-[![Download](https://img.shields.io/badge/Download-Plugin-green.svg?style=flat&logo=download)](https://github.com/secretformula/FanControl.UsbTemp/releases)
+# FanControl.VCUsbTemp
+This is a FanControl plugin for VCUsbTemp (openhardware) 8 channel USB temperature sensor.
+The work based on the Fancontrol.UsbTemp plugin made by "secretformule".
+Please checkout his plugin here:
 
-Plugin for [FanControl](https://github.com/Rem0o/FanControl.Releases) that provides support for USB/serial based temperature probes. Initial support provides for DS18B20 1–wire sensor connected via USB serial bridge as found in [this product](http://usbtemp.com/). Support for other temperature probes may be added in the future.
+https://github.com/secretformula/FanControl.UsbTemp
 
 ## To install
 
 Either
-* Download the latest [release](https://github.com/secretformula/FanControl.UsbTemp/releases)
+* Download the latest [release](https://)
 * Compile the solution.
 
 And then
