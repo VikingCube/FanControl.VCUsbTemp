@@ -1,0 +1,11 @@
+[
+     {"device_type":"VCUsbTempSensor","device_id":"COM7", "sensor":0}
+    ,{"device_type":"VCUsbTempSensor","device_id":"COM7", "sensor":1}
+    ,{"device_type":"VCUsbTempSensor","device_id":"COM7", "sensor":2}
+    ,{"device_type":"VCUsbTempSensor","device_id":"COM7", "sensor":3}
+    ,{"device_type":"VCUsbTempSensor","device_id":"COM7", "sensor":4}
+    ,{"device_type":"VCUsbTempSensor","device_id":"COM7", "sensor":5}
+    ,{"device_type":"VCUsbTempSensor","device_id":"COM7", "sensor":6}
+    ,{"device_type":"VCUsbTempSensor","device_id":"COM7", "sensor":7}
+    ,{"device_type":"VCUsbTempSensor","device_id":"COM7", "sensor":8}
+]
